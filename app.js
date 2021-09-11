@@ -15,9 +15,11 @@ function errorHandler(error) {
 
 function clickHandler() {
     var inputText = Input.value;
+    if(inputText.length==0)alert("Enter the text if you want me to spare your life😡");
+    else{
     fetch(translateFull(inputText)).then(response => response.json()).then(json => {
         var transforM=json.contents.translated;Output.innerText = transforM;
     }).catch(errorHandler);
-
+    }
 };
 press.addEventListener("click", clickHandler);
