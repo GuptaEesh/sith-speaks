@@ -71,7 +71,7 @@ button {
 
 footer {
     margin-top: 2rem;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
     background-color: var(--star-wars);
