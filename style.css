@@ -42,7 +42,7 @@ textarea {
 
 button {
     border: none;
-    margin-top: 6rem;
+    margin-top: 2rem;
     margin-left: 2rem;
     background-color: var(--primary-color);
     color: var(--star-wars);
@@ -54,7 +54,7 @@ button {
     box-sizing: border-box;
     width: 90%;
     display: block;
-    margin-top: 5.9rem;
+    margin-top: 1.9rem;
     margin-left: 2rem;
     border: 1px solid var(--use-color);
     min-height: 15vh;
