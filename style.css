@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+
+:root {
+    --primary-color: #7F1D1D;
+    --star-wars: yellow;
+    --use-color: white;
+}
+
+body {
+    margin: 0;
+    background: url("https://image.shutterstock.com/image-photo/bangkok-thailand-january-11-2020-260nw-1613981341.jpg");
+    background-size: 40rem;
+    background-position-y: 2.8rem;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-color: var(--primary-color);
+    font-family: 'Frijole', cursive;
+
+}
+
+nav {
+    background-color: var(--star-wars);
+    color: var(--primary-color);
+    text-align: center;
+
+}
+
+.root {
+    margin: auto;
+    max-width: 700px;
+    padding: 1 rem;
+}
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 90%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    min-height: 20vh;
+    font-size: large;
+}
+
+button {
+    border: none;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    background-color: var(--primary-color);
+    color: var(--star-wars);
+    font-family: 'Frijole', cursive;
+    padding: 1rem 2rem;
+}
+
+#txt-output {
+    box-sizing: border-box;
+    width: 90%;
+    display: block;
+    margin-top: .9rem;
+    margin-left: 2rem;
+    border: 1px solid var(--use-color);
+    min-height: 15vh;
+    font-size: larger;
+    color: var(--use-color);
+    overflow: scroll;
+}
+
+footer {
+    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--star-wars);
+    color: var(--primary-color);
+    text-align: center;
+    padding: 1rem;
+}
