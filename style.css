@@ -9,7 +9,7 @@
 body {
     margin: 0;
     background: url("https://image.shutterstock.com/image-photo/bangkok-thailand-january-11-2020-260nw-1613981341.jpg");
-    background-size: 40rem;
+    background-size: 50rem;
     background-position-y: 10rem;
     background-position-x: center;
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@ textarea {
     width: 90%;
     margin-left: 2rem;
     margin-top: 7rem;
-    min-height: 20vh;
+    min-height: 25vh;
     font-size: large;
 }
 
@@ -57,7 +57,7 @@ button {
     margin-top: 1.9rem;
     margin-left: 2rem;
     border: 1px solid var(--use-color);
-    min-height: 15vh;
+    min-height: 20vh;
     font-size: larger;
     color: var(--use-color);
     overflow: scroll;
