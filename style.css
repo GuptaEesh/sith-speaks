@@ -35,14 +35,14 @@ textarea {
     display: block;
     width: 90%;
     margin-left: 2rem;
-    margin-top: 2rem;
+    margin-top: 7rem;
     min-height: 20vh;
     font-size: large;
 }
 
 button {
     border: none;
-    margin-top: 1rem;
+    margin-top: 6rem;
     margin-left: 2rem;
     background-color: var(--primary-color);
     color: var(--star-wars);
@@ -54,7 +54,7 @@ button {
     box-sizing: border-box;
     width: 90%;
     display: block;
-    margin-top: .9rem;
+    margin-top: 5.9rem;
     margin-left: 2rem;
     border: 1px solid var(--use-color);
     min-height: 15vh;
