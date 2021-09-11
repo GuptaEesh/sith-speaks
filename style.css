@@ -38,7 +38,7 @@ textarea {
     display: block;
     width: 90%;
     margin-left: 2rem;
-    margin-top: 5rem;
+    margin-top: 4rem;
     min-height: 25vh;
     font-size: large;
 }
@@ -60,7 +60,7 @@ button {
     border-bottom-right-radius: .5rem;
     width: 90%;
     display: block;
-    margin-top: 1.9rem;
+    margin-top: 1.5rem;
     margin-left: 2rem;
     border: 1px solid var(--use-color);
     min-height: 20vh;
