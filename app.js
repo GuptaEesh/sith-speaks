@@ -10,7 +10,7 @@ function translateFull(input) {
 
 function errorHandler(error) {
     console.log("Error Occured", error);
-    alert("Server is not responding, pls try again!");
+    alert("This is my sleeping time, come again in 1 hour!");
 }
 
 function clickHandler() {
