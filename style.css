@@ -41,7 +41,9 @@ textarea {
 }
 
 button {
-    border: none;
+    border: 1px;
+    border-radius: 1rem;
+    border-color: var(--primary-color);
     margin-top: 1rem;
     margin-left: 2rem;
     background-color: var(--primary-color);
