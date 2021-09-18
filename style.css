@@ -41,6 +41,7 @@ textarea {
     margin-top: 1.2rem;
     min-height: 25vh;
     font-size: large;
+    box-shadow: 0.5rem 0.5rem 8rem var(--primary-color) ;
 }
 
 button {
@@ -67,6 +68,7 @@ button {
     font-size: larger;
     color: var(--use-color);
     overflow: scroll;
+    box-shadow: 0.5rem 0.5rem 8rem var(--primary-color) ;
 }
 
 footer {
